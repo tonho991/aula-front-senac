@@ -10,14 +10,16 @@ body {
 #title {
     background-color: #3a1b0a;
     border-radius: 100px;
+    width: auto;
     padding: 8px;
     text-align: center;
-
+    box-shadow: 2px 3px 5px #323232;
+    font-size: 35px;
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 
