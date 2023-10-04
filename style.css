@@ -1,6 +1,26 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
 }
+
 body {
-    background-color: #252525 ;
+    background-color: #252525;
+}
+
+#title {
+    background-color: #3a1b0a;
+    border-radius: 100px;
+    padding: 8px;
+    text-align: center;
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+
+iframe {
+    border-radius: 20px;
 }
