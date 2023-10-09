@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazer Pedido</title>
+    <link rel="stylesheet" href="/pedido.css">
+</head>
+
+<body>
+    <h1>Fazer pedido</h1>
+    <form action="/pedido.html" method="get">
+        <label for="cobertura">Cobertura</label>
+        <div class="input-container">
+            <input type="text" placeholder="Ex: ganache de morango" name="cobertura" id="cobertura" />
+        </div>
+        <label for="recheio">Recheio</label>
+        <div class="input-container">
+            <input type="text" placeholder="Ex: brigadeiro" name="recheio" id="recheio" />
+        </div>
+        <label for="massa">Massa</label>
+        <div class="input-container">
+            <input type="text" placeholder="Ex: baunilha" name="massa" id="massa" />
+        </div>
+        <input type="button" value="Enviar" id="send">
+    </form>
+
+</body>
+
+</html>
