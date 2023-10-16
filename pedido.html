@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fazer Pedido</title>
-    <link rel="stylesheet" href="/pedido.css">
+    <link rel="stylesheet" href="/style/pedido.css">
 </head>
 
 <body>
-    <h1>Fazer pedido</h1>
+    <h1 id="title">Fazer Pedido</h1>
     <form action="/pedido.html" method="get">
         <label for="cobertura">Cobertura</label>
         <div class="input-container">
@@ -22,6 +22,10 @@
         <label for="massa">Massa</label>
         <div class="input-container">
             <input type="text" placeholder="Ex: baunilha" name="massa" id="massa" />
+        </div>
+        <label for="endereco">Endereco</label>
+        <div class="input-container">
+            <input type="text" placeholder="Ex: Endereco" name="endereco" id="endereco" />
         </div>
         <input type="button" value="Enviar" id="send">
     </form>
