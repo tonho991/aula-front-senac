@@ -7,6 +7,7 @@
     <title>Aula 02/10</title>
     <link rel="stylesheet" href="/style/home.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -14,7 +15,10 @@
     <div class="body-container" id="body-container">
 
         <h1 id="title">Donut Delights</h1>
-        <img src="/src/donut.png">
+        <div class="logo-container">
+            <img src="/src/logo.png" id="logo">
+        </div>
+        
         <section id="visao">
             <div id="title-container">
                 <img src="/src/donut-svgrepo-com.svg" alt="Donut icon" style="width: 20px; height: 20px;">
@@ -52,12 +56,13 @@
                     de alegria e celebração. Queremos compartilhar essa paixão com nossos clientes todos os dias.</li>
             </ol>
         </section>
-        <footer>
-            <a href="/pedido.html">Fazer Pedido</a><br>
-            <a href="/fotos.html">Algumas Fotos de Nossos Donuts</a><br>
-            <a href="mailto:vgapp.adm@gmail.com">Entrar em Contato</a><br>
-        </footer>
+        <div class="footer">
+            <a href="/pedido.html" id="abtn">Fazer Pedido</a><br><br>
+            <a href="/fotos.html" id="abtn">Algumas Fotos de Nossos Donuts</a><br><br>
+            <a href="mailto:vgapp.adm@gmail.com" id="abtn">Entrar em Contato</a><br><br>
+        </div>
     </div>
+  
     <div class="dialog-container" id="dialog">
         <div class="dialog-box">
             <h2>Seja Bem Vindo ao Nosso Site!</h2>
@@ -73,6 +78,13 @@
         </div>
     </div>
 
+    <div class="fab-container">
+        <div class="fab">
+            <a href="/pedido.html">
+                <svg fill="#ffffff" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.cls-1{fill:none;}</style></defs><title>request-quote</title><path d="M22,22v6H6V4H16V2H6A2,2,0,0,0,4,4V28a2,2,0,0,0,2,2H22a2,2,0,0,0,2-2V22Z" transform="translate(0)"></path><path d="M29.54,5.76l-3.3-3.3a1.6,1.6,0,0,0-2.24,0l-14,14V22h5.53l14-14a1.6,1.6,0,0,0,0-2.24ZM14.7,20H12V17.3l9.44-9.45,2.71,2.71ZM25.56,9.15,22.85,6.44l2.27-2.27,2.71,2.71Z" transform="translate(0)"></path><rect id="_Transparent_Rectangle_" data-name="<Transparent Rectangle>" class="cls-1" width="32" height="32"></rect></g></svg>
+                </a>
+                </div>
+            </div>
 
 
     <script src="/script/main.js"></script>
