@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02/10</title>
+    <link rel="stylesheet" href="/style/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="body-container" id="body-container">
+
+        <h1 id="title">Donut Delights</h1>
+        <img src="/src/donut.png">
+        <section id="visao">
+            <div id="title-container">
+                <img src="/src/donut-svgrepo-com.svg" alt="Donut icon" style="width: 20px; height: 20px;">
+                <h2>
+                    Visão
+                </h2>
+            </div>
+            <p>
+                Ser a principal escolha para os amantes de donuts, oferecendo produtos de alta qualidade e uma
+                experiência encantadora. Queremos ser reconhecidos não apenas pelos nossos deliciosos donuts, mas também
+                pela nossa dedicação à satisfação dos clientes e ao impacto positivo na comunidade.
+            </p>
+        </section>
+        <section id="valores">
+            <div id="title-container">
+                <img src="/src/donut-svgrepo-com.svg" alt="Donut icon" style="width: 20px; height: 20px;">
+                <h2>
+                    Visão
+                </h2>
+            </div>
+            <ol>
+                <li>Qualidade Incomparável: Comprometemo-nos a usar os melhores ingredientes para criar donuts frescos e
+                    deliciosos, superando as expectativas dos nossos clientes em cada mordida.</li>
+                <li>Atendimento Excepcional: Acreditamos que um atendimento caloroso e amigável é essencial. Queremos
+                    que
+                    cada cliente se sinta bem-vindo e apreciado em nossa loja.</li>
+                <li> Inovação Criativa: Estamos constantemente buscando novos sabores e criações para surpreender os
+                    paladares dos nossos clientes. Queremos ser conhecidos por nossa originalidade e diversidade de
+                    opções.</li>
+                <li> Responsabilidade Social: Estamos comprometidos em apoiar nossa comunidade local. Desde a doação de
+                    donuts para eventos beneficentes até a promoção de práticas sustentáveis, buscamos fazer a
+                    diferença.</li>
+                <li>Paixão Pela Alegria: Acreditamos que nossos donuts são mais do que apenas comida - eles são uma
+                    fonte
+                    de alegria e celebração. Queremos compartilhar essa paixão com nossos clientes todos os dias.</li>
+            </ol>
+        </section>
+        <footer>
+            <a href="/pedido.html">Fazer Pedido</a><br>
+            <a href="/fotos.html">Algumas Fotos de Nossos Donuts</a><br>
+            <a href="mailto:vgapp.adm@gmail.com">Entrar em Contato</a><br>
+        </footer>
+    </div>
+    <div class="dialog-container" id="dialog">
+        <div class="dialog-box">
+            <h2>Seja Bem Vindo ao Nosso Site!</h2>
+            <p>Guia da Pagina</p>
+            <ul style="text-align: left">
+                <li><a href="#visao" onclick="closeDialog()">Visão</a></li>
+                <li><a href="#valores" onclick="closeDialog()">Valores</a></li>
+                <li><a href="/pedido.html" onclick="closeDialog()">Fazer Pedido</a></li>
+                <li><a href="/fotos.html" onclick="closeDialog()">Algumas Fotos de Nossos Donuts</a></li>
+                <li><a href="mailto:vgapp.adm@gmail.com" onclick="closeDialog()">Entrar em Contato</a></li>
+            </ul>
+            <button onclick="closeDialog()">Fechar</button>
+        </div>
+    </div>
+
+
+
+    <script src="/script/main.js"></script>
+</body>
+
+</html>
