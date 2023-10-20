@@ -19,12 +19,14 @@ body {
 
 .container {
     display: flex;
+    max-width: 100%;
     flex-wrap: wrap;
-    max-width: 500px;
-    
+    justify-content: space-between;
+    align-items: center;
 }
 
 .item {
+    transition: all 0.3s ease;
     margin: 5px;
     box-sizing: border-box;
 }

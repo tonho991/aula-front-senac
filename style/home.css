@@ -2,16 +2,19 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-    color: #fff
+    color: #fff;
+    
 }
 
 body {
     background-color: #252525;
     font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0;
 }
 
 .body-container {
-    filter: blur(5px);
+    margin: 10px;
 }
 
 #title-container {
@@ -24,35 +27,12 @@ body {
     margin-left: 5px;
 }
 
-#title {
-    background-color: #570552;
-    border-radius: 10px;
-    width: auto;
-    padding: 8px;
-    text-align: center;
-    box-shadow: 2px 3px 5px #323232;
-    font-size: 35px;
-    text-shadow: 2px 2px 15px #ffffffa1;
-}
-
-.logo-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-#logo {
-    width: 200px;
-    height: 200px;
-    background-color: #fff;
-    border-radius: 50%;
-}
 
 a {
     text-decoration: none;
 }
 
-section h2:hover {
+#title-container h2:hover {
     color: #b56ab0;
 }
 
@@ -77,6 +57,9 @@ iframe:hover {
     display: flex;
     align-items: center;
     text-align: center;
+    z-index: 1;
+    margin: 24px;
+    padding: 8px;
 }
 
 .dialog-box {
@@ -128,13 +111,12 @@ button {
     position: fixed;
     bottom: 0;
     right: 0;
-    height: 100px;
-    width: 100px;
     display: flex;
+
 }
 
 .fab {
-    position: absolute;
+    position: fixed;
     width: 30px;
     height: 30px;
     background-color: #853c80;
@@ -149,4 +131,41 @@ button {
     box-shadow: 2px 2px 20px 10px #dc83d657;
     width: 35px;
     height: 35px;
+}
+
+.rate-container {
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 100%;
+}
+
+.rate-box {
+  padding: 10px;
+  margin: 5px;
+  background-color: #323232;
+  border-radius: 10px;
+  max-width: 350px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px #323232;
+  transition: all 0.3s ease-out;
+}
+
+.rate-info img {
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+}
+
+.rate-info h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rate-info {
+    display: flex;
+    align-items: center;
+}
+
+.checked {
+    color: orange;
 }
