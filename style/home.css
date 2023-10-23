@@ -3,7 +3,10 @@
 * {
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
 }
 
 body {
@@ -11,12 +14,41 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 0px;
     margin: 0;
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 100%;
+    grid-template-areas: 
+    "header header header"
+    "body body body"
+    "footer footer footer";
+    height: 100%;
 }
 
 .body-container {
+    height: 100%;
     margin: 10px;
+    grid-area: body;
 }
 
+.toolbar {
+    grid-area: header;
+}
+
+.footer {
+    grid-area: footer;
+    padding-top: 20px;
+    text-align: center;
+    display: block;
+    background-color: #1c1c1c;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ffffff00
+}
 #title-container {
     display: flex;
     align-items: center;
@@ -27,6 +59,9 @@ body {
     margin-left: 5px;
 }
 
+#visao {
+    margin-top: 80px;
+}
 
 a {
     text-decoration: none;
@@ -41,10 +76,6 @@ a h2:hover {
     border: 1px solid #b56ab0;
     padding: 8px;
     border-radius: 5px;
-}
-
-iframe:hover {
-    box-shadow: 2px 2px 10px #ffffff79;
 }
 
 .dialog-container {
@@ -101,11 +132,7 @@ button {
     }
 }
 
-.footer {
-    padding-top: 20px;
-    text-align: center;
-    display: block;
-}
+
 
 .fab-container {
     position: fixed;

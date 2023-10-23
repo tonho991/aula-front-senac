@@ -1,6 +1,7 @@
 .toolbar {
     display: flex;
-    position: sticky;
+    position: fixed;
+    top: 0;
     align-items: center;
     background-color: #570552;
     width: 100%;
@@ -10,30 +11,22 @@
 
 .toolbar ul {
     list-style-type: none;
-    display: flex;
-    width: 100%;
 }
 
 .toolbar li {
     display: inline;
-    margin-left: 5px;
-    float: right;
+    text-transform: uppercase;
+    margin-right: 5px;
     & a:hover {
         color: #ff9cf8;
     }
 }
 
 #title {
-    font-size: 35px;
+    font-size: 25px;
     text-shadow: 2px 2px 15px #ffffffa1;
     font-weight: 600;
     margin-left: 10px;
-}
-
-.logo-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
 }
 
 #logo {
@@ -41,5 +34,6 @@
     height: 50px;
     background-color: #fff;
     border-radius: 50%;
-    box-shadow: 2px 3px 0px #ac2550;
+    box-shadow: 2px 3px 10px #ac2550;
+    
 }
