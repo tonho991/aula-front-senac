@@ -4,6 +4,7 @@
     font-family: 'Roboto', sans-serif;
     color: #fff;
 }
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 70px;
@@ -21,10 +22,10 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto 100%;
-    grid-template-areas: 
-    "header header header"
-    "body body body"
-    "footer footer footer";
+    grid-template-areas:
+        "header header header"
+        "body body body"
+        "footer footer footer";
     height: 100%;
 }
 
@@ -49,6 +50,7 @@ body {
     width: 100%;
     border: 1px solid #ffffff00
 }
+
 #title-container {
     display: flex;
     align-items: center;
@@ -167,20 +169,21 @@ button {
 }
 
 .rate-box {
-  padding: 10px;
-  margin: 5px;
-  background-color: #323232;
-  border-radius: 10px;
-  max-width: 350px;
-  box-sizing: border-box;
-  box-shadow: 2px 2px 10px #323232;
-  transition: all 0.3s ease-out;
+    padding: 10px;
+    margin: 5px;
+    background-color: #323232;
+    border-radius: 10px;
+    max-width: 350px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px #323232;
+    transition: all 0.3s ease-out;
 }
 
 .rate-info img {
     border-radius: 100px;
     width: 60px;
     height: 60px;
+    object-fit: cover;
 }
 
 .rate-info h2 {
@@ -195,4 +198,38 @@ button {
 
 .checked {
     color: orange;
+}
+
+@media screen and (max-width: 767px) {
+    .rate-box {
+        padding: 10px;
+        margin: 5px;
+        background-color: #323232;
+        border-radius: 10px;
+        max-width: 100%;
+        box-sizing: border-box;
+        box-shadow: 2px 2px 10px #323232;
+        transition: all 0.3s ease-out;
+    }
+
+    .rate-info img {
+        border-radius: 100px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .rate-info h2 {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    .rate-info p {
+        font-size: 14px;
+    }
+    .footer h3 {
+        font-size: 15px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
 }
