@@ -1,252 +1,214 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Donut Delights</title>
-        <link rel="stylesheet" href="/style/home.css">
-        <link
-            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-            rel="stylesheet" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="/style/toolbar.css">
-        <script src="/script/main.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut Delights</title>
+    <link rel="stylesheet" href="/style/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style/toolbar.css">
+    <script src="/script/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <body>
-        <div class="container-all">
+</head>
 
-            <div class="toolbar" id="item1">
-                <div class="toolbar-box">
-                    <img src="/src/logo.png" alt="Logo" id="logo">
-                    <label id="title">Donut Delights</label>
-                </div>
-                <div class="menu" id="menu">
-                            <a href="/">Home</a>
-                            <a href="#avaliacoes">Avaliações</a>
-                            <a href="pedido.html">Fazer Pedido</a>
-                            <a href="fotos.html">Fotos</a>
-                            <a href="javascript:void(0);" class="icon" onclick="showMenuDown()">
-                                <span class="material-symbols-outlined" id="icon-hamburger">
-                                    menu
-                                </span>
-                             </a>
-                </div>
+<body>
+    <div class="container-all">
+
+        <div class="toolbar" id="item1">
+            <div class="toolbar-box">
+                <img src="/src/logo.png" alt="Logo" id="logo">
+                <label id="title">Donut Delights</label>
             </div>
-            <div class="body-container" id="item2">
-
-                <section id="visao">
-                    <div id="title-container">
-                        <img src="/src/donut-svgrepo-com.svg" alt="Donut icon"
-                            style="width: 20px; height: 20px;">
-                        <h2>
-                            Visão
-                        </h2>
-                    </div>
-                    <p>
-                        Ser a principal escolha para os amantes de donuts,
-                        oferecendo produtos de alta qualidade e uma <br>
-                        experiência encantadora. Queremos ser reconhecidos não
-                        apenas pelos nossos deliciosos donuts, mas também
-                        <br>
-                        pela nossa dedicação à satisfação dos clientes e ao
-                        impacto positivo na comunidade.
-                    </p>
-                </section>
-                <section id="valores">
-                    <div id="title-container">
-                        <img src="/src/donut-svgrepo-com.svg" alt="Donut icon"
-                            style="width: 20px; height: 20px;">
-                        <h2>
-                            Visão
-                        </h2>
-                    </div>
-                    <ol>
-                        <li>Qualidade Incomparável: Comprometemo-nos a usar os
-                            melhores ingredientes para criar donuts frescos
-                            e<br>
-                            deliciosos, superando as expectativas dos nossos
-                            clientes em cada mordida.</li>
-                        <li>Atendimento Excepcional: Acreditamos que um
-                            atendimento caloroso e amigável é essencial.
-                            Queremos<br>
-                            que
-                            cada cliente se sinta bem-vindo e apreciado em nossa
-                            loja.</li>
-                        <li> Inovação Criativa: Estamos constantemente buscando
-                            novos sabores e criações para surpreender os<br>
-                            paladares dos nossos clientes. Queremos ser
-                            conhecidos por nossa originalidade e diversidade de<br>
-                            opções.</li>
-                        <li> Responsabilidade Social: Estamos comprometidos em
-                            apoiar nossa comunidade local. Desde a doação
-                            de<br>
-                            donuts para eventos beneficentes até a promoção de
-                            práticas sustentáveis, buscamos fazer a<br>
-                            diferença.</li>
-                        <li>Paixão Pela Alegria: Acreditamos que nossos donuts
-                            são mais do que apenas comida - eles são uma<br>
-                            fonte
-                            de alegria e celebração. Queremos compartilhar essa
-                            paixão com nossos clientes todos os dias.</li>
-                    </ol>
-                </section>
-                <section id="avaliacoes">
-                    <div id="title-container">
-                        <img src="/src/donut-svgrepo-com.svg" alt="Donut icon"
-                            style="width: 20px; height: 20px;">
-                        <h2>
-                            Avaliações
-                        </h2>
-                    </div>
-                    <div class="rate-container">
-                        <div class="rate-box">
-                            <div class="rate-info">
-                                <img src="/src/clients/1.jpg"
-                                    alt="Profile Picture">
-                                <h2>Miguel</h2>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <p style="font-size: 12px; margin-left: 5px;">(3/5)</p>
-                            </div>
-                            <div class="rate-text">
-                                Os donuts aqui são bons, mas às vezes parecem um
-                                pouco secos. Gostaria que tivessem mais opções
-                                de recheio. O atendimento é eficiente, porém.
-                            </div>
-                        </div>
-                        <div class="rate-box">
-                            <div class="rate-info">
-                                <img src="/src/clients/2.jpg"
-                                    alt="Profile Picture">
-                                <h2>Joana</h2>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <p style="font-size: 12px; margin-left: 5px;">(5/5)</p>
-                            </div>
-                            <div class="rate-text">
-                                Os donuts desta loja são uma verdadeira delícia!
-                                Eles são sempre frescos e têm uma variedade
-                                incrível de coberturas. Minha escolha favorita é
-                                o donut de morango com glacê, simplesmente
-                                divino!
-                            </div>
-                        </div>
-                        <div class="rate-box">
-                            <div class="rate-info">
-                                <img src="/src/clients/3.jpg"
-                                    alt="Profile Picture">
-                                <h2>Sofia</h2>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <p style="font-size: 12px; margin-left: 5px;">(5/5)</p>
-                            </div>
-                            <div class="rate-text">
-                                Eu simplesmente não consigo resistir a esses
-                                donuts! Eles são tão fofos e saborosos. O donut
-                                de
-                                canela é a minha escolha número um, e sempre
-                                peço um café para acompanhar. Perfeição!
-                            </div>
-                        </div>
-                        <div class="rate-box">
-                            <div class="rate-info">
-                                <img src="/src/clients/4.jpg"
-                                    alt="Profile Picture">
-                                <h2>Pedro</h2>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <p style="font-size: 12px; margin-left: 5px;">(5/5)</p>
-                            </div>
-                            <div class="rate-text">
-                                Donuts incríveis a um preço justo. O serviço é
-                                rápido e amigável. Recomendo o donut de
-                                chocolate
-                                recheado, é uma explosão de sabor!
-                            </div>
-                        </div>
-                        <div class="rate-box">
-                            <div class="rate-info">
-                                <img src="/src/clients/5.jpg"
-                                    alt="Profile Picture">
-                                <h2>Mariana</h2>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <p style="font-size: 12px; margin-left: 5px;">(5/5)</p>
-                            </div>
-                            <div class="rate-text">
-                                Não encontro palavras para descrever o quão
-                                maravilhosos são esses donuts! Cada mordida é
-                                uma
-                                explosão de felicidade. Os sabores são
-                                incríveis, e o donut de creme de avelã é uma
-                                obra de
-                                arte.
-                            </div>
-                        </div>
-                    </div>
-                </section>
+            <div class="menu" id="menu">
+                <a href="/">Home</a>
+                <a href="#avaliacoes">Avaliações</a>
+                <a href="pedido.html">Fazer Pedido</a>
+                <a href="fotos.html">Fotos</a>
+                <a href="javascript:void(0);" class="icon" onclick="showMenuDown()">
+                    <span class="material-symbols-outlined" id="icon-hamburger">
+                        menu
+                    </span>
+                </a>
             </div>
-            <div class="footer" id="item3">
-                <h3>Obrigado Pela Visita. Volte Sempre!</h3>
+        </div>
+        <div class="body-container" id="item2">
+
+            <section id="visao">
+                <div id="title-container">
+                    <img src="/src/donut-svgrepo-com.svg" alt="Donut icon" style="width: 20px; height: 20px;">
+                    <h2>
+                        Visão
+                    </h2>
+                </div>
                 <p>
-                    © 2023 Donut Delights. Todos os direitos reservados. 
+                    Ser a principal escolha para os amantes de donuts,
+                    oferecendo produtos de alta qualidade e uma <br>
+                    experiência encantadora. Queremos ser reconhecidos não
+                    apenas pelos nossos deliciosos donuts, mas também
+                    <br>
+                    pela nossa dedicação à satisfação dos clientes e ao
+                    impacto positivo na comunidade.
                 </p>
-            </div>
-
-            <div class="fab-container">
-                <div class="fab">
-                    <a href="/pedido.html">
-                        <svg fill="#ffffff" viewBox="0 0 32 32" id="icon"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"></g>
-                            <g id="SVGRepo_iconCarrier">
-                                <defs>
-                                    <style>
-                                .cls-1 {
-                                    fill: none;
-                                }
-                            </style>
-                                </defs>
-                                <title>request-quote</title>
-                                <path
-                                    d="M22,22v6H6V4H16V2H6A2,2,0,0,0,4,4V28a2,2,0,0,0,2,2H22a2,2,0,0,0,2-2V22Z"
-                                    transform="translate(0)"></path>
-                                <path
-                                    d="M29.54,5.76l-3.3-3.3a1.6,1.6,0,0,0-2.24,0l-14,14V22h5.53l14-14a1.6,1.6,0,0,0,0-2.24ZM14.7,20H12V17.3l9.44-9.45,2.71,2.71ZM25.56,9.15,22.85,6.44l2.27-2.27,2.71,2.71Z"
-                                    transform="translate(0)"></path>
-                                <rect id="_Transparent_Rectangle_"
-                                    data-name="<Transparent Rectangle>"
-                                    class="cls-1"
-                                    width="32" height="32"></rect>
-                            </g>
-                        </svg>
-                    </a>
+            </section>
+            <section id="valores">
+                <div id="title-container">
+                    <img src="/src/donut-svgrepo-com.svg" alt="Donut icon" style="width: 20px; height: 20px;">
+                    <h2>
+                        Visão
+                    </h2>
                 </div>
-            </div>
-        </body>
+                <ol>
+                    <li>Qualidade Incomparável: Comprometemo-nos a usar os
+                        melhores ingredientes para criar donuts frescos
+                        e<br>
+                        deliciosos, superando as expectativas dos nossos
+                        clientes em cada mordida.</li>
+                    <li>Atendimento Excepcional: Acreditamos que um
+                        atendimento caloroso e amigável é essencial.
+                        Queremos<br>
+                        que
+                        cada cliente se sinta bem-vindo e apreciado em nossa
+                        loja.</li>
+                    <li> Inovação Criativa: Estamos constantemente buscando
+                        novos sabores e criações para surpreender os<br>
+                        paladares dos nossos clientes. Queremos ser
+                        conhecidos por nossa originalidade e diversidade de<br>
+                        opções.</li>
+                    <li> Responsabilidade Social: Estamos comprometidos em
+                        apoiar nossa comunidade local. Desde a doação
+                        de<br>
+                        donuts para eventos beneficentes até a promoção de
+                        práticas sustentáveis, buscamos fazer a<br>
+                        diferença.</li>
+                    <li>Paixão Pela Alegria: Acreditamos que nossos donuts
+                        são mais do que apenas comida - eles são uma<br>
+                        fonte
+                        de alegria e celebração. Queremos compartilhar essa
+                        paixão com nossos clientes todos os dias.</li>
+                </ol>
+            </section>
+            <section id="avaliacoes">
+                <div id="title-container">
+                    <img src="/src/donut-svgrepo-com.svg" alt="Donut icon" style="width: 20px; height: 20px;">
+                    <h2>
+                        Avaliações
+                    </h2>
+                </div>
+                <div class="rate-container">
+                    <div class="rate-box">
+                        <div class="rate-info">
+                            <img src="/src/clients/1.jpg" alt="Profile Picture">
+                            <h2>Miguel</h2>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <p style="font-size: 12px; margin-left: 5px;">(3/5)</p>
+                        </div>
+                        <div class="rate-text">
+                            Os donuts aqui são bons, mas às vezes parecem um
+                            pouco secos. Gostaria que tivessem mais opções
+                            de recheio. O atendimento é eficiente, porém.
+                        </div>
+                    </div>
+                    <div class="rate-box">
+                        <div class="rate-info">
+                            <img src="/src/clients/2.jpg" alt="Profile Picture">
+                            <h2>Joana</h2>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <p style="font-size: 12px; margin-left: 5px;">(5/5)</p>
+                        </div>
+                        <div class="rate-text">
+                            Os donuts desta loja são uma verdadeira delícia!
+                            Eles são sempre frescos e têm uma variedade
+                            incrível de coberturas. Minha escolha favorita é
+                            o donut de morango com glacê, simplesmente
+                            divino!
+                        </div>
+                    </div>
+                    <div class="rate-box">
+                        <div class="rate-info">
+                            <img src="/src/clients/3.jpg" alt="Profile Picture">
+                            <h2>Sofia</h2>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <p style="font-size: 12px; margin-left: 5px;">(5/5)</p>
+                        </div>
+                        <div class="rate-text">
+                            Eu simplesmente não consigo resistir a esses
+                            donuts! Eles são tão fofos e saborosos. O donut
+                            de
+                            canela é a minha escolha número um, e sempre
+                            peço um café para acompanhar. Perfeição!
+                        </div>
+                    </div>
+                    <div class="rate-box">
+                        <div class="rate-info">
+                            <img src="/src/clients/4.jpg" alt="Profile Picture">
+                            <h2>Pedro</h2>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <p style="font-size: 12px; margin-left: 5px;">(5/5)</p>
+                        </div>
+                        <div class="rate-text">
+                            Donuts incríveis a um preço justo. O serviço é
+                            rápido e amigável. Recomendo o donut de
+                            chocolate
+                            recheado, é uma explosão de sabor!
+                        </div>
+                    </div>
+                    <div class="rate-box">
+                        <div class="rate-info">
+                            <img src="/src/clients/5.jpg" alt="Profile Picture">
+                            <h2>Mariana</h2>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <p style="font-size: 12px; margin-left: 5px;">(5/5)</p>
+                        </div>
+                        <div class="rate-text">
+                            Não encontro palavras para descrever o quão
+                            maravilhosos são esses donuts! Cada mordida é
+                            uma
+                            explosão de felicidade. Os sabores são
+                            incríveis, e o donut de creme de avelã é uma
+                            obra de
+                            arte.
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="footer" id="item3">
+            <h3>Obrigado Pela Visita. Volte Sempre!</h3>
+            <p>
+                © 2023 Donut Delights. Todos os direitos reservados.
+            </p>
+        </div>
 
-    </html>
+        <div class="fab" id="fab" onmouseenter="fabMouseEnter()" onmouseleave="fabMouseLeave()" onclick="fabClick()">
+            <img src="/src/icons/request-quote-svgrepo-com.svg" width="30px" height="30px">
+            <h2 id="fab-title">Fazer Pedido</h2>
+        </div>
+
+
+</body>
+
+</html>

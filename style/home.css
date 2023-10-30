@@ -136,36 +136,59 @@ button {
 
 
 
-.fab-container {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    display: flex;
-
-}
 
 .fab {
     position: fixed;
-    width: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     height: 30px;
+    border-radius: 100px;
+    padding: 8px;
     background-color: #853c80;
     box-shadow: 2px 2px 20px 5px #dc83d657;
-    border-radius: 50%;
-    padding: 8px;
     bottom: 30px;
-    right: 30px;
+    right: 35px;
+    width: 35px;
+    cursor: pointer;
 }
 
-.fab:hover {
-    box-shadow: 2px 2px 20px 10px #dc83d657;
-    width: 35px;
-    height: 35px;
+.fab h2 {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    display: none;
+}
+
+
+@keyframes expandIn {
+    from {
+        width: 30px;
+        height: 30px;
+    }
+    to {
+        width: 150px;
+        height: 30px;
+    }
+}
+
+@keyframes expandOut {
+    from {
+        width: 150px;
+        height: 30px;
+    }
+    to {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 .rate-container {
     flex-wrap: wrap;
     display: flex;
     max-width: 100%;
+    
 }
 
 .rate-box {
@@ -177,6 +200,7 @@ button {
     box-sizing: border-box;
     box-shadow: 2px 2px 10px #323232;
     transition: all 0.3s ease-out;
+   
 }
 
 .rate-info img {

@@ -38,9 +38,9 @@
 
 #title {
     font-size: 25px;
-    text-shadow: 2px 2px 15px #ffffffa1;
     font-weight: 600;
     margin-left: 10px;
+    animation: neonText 15s linear infinite;
 }
 
 #logo {
@@ -49,6 +49,18 @@
     background-color: #fff;
     border-radius: 50%;
     object-fit: cover;
+}
+
+@keyframes neonText {
+    0% {
+        text-shadow: 4px 5px 15px #ffffffa1;
+    }
+    50% {
+        text-shadow: 4px 5px 20px #ffffffa1;
+    }
+    100% {
+        text-shadow: 4px 5px 25px #ffffffa1;
+    }
 }
 
 @media screen and (max-width: 767px) {
