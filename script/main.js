@@ -7,7 +7,6 @@ function showMenuDown() {
         menu.className += " responsive";
         toolbar.className += " responsive";
         hamburger.textContent = "close"
-
     } else {
         menu.className = "menu";
         toolbar.className = "toolbar"
